@@ -25,11 +25,11 @@ section {
   position: relative;
   background-color: #0d6efd;
   transform-style: preserve-3d;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 
 .keyboard-box::before {
@@ -63,8 +63,6 @@ section {
   position: absolute;
   color: #fff;
   font-size: 50px;
-  /*font-size: 4.3em;
-  */
   font-weight: bold;
   font-style: italic;
   top: 350px;
@@ -206,4 +204,12 @@ section {
   -moz-transform: translate3d(-50%, -50%, 100px) rotate(15deg) scale(1.2);
   -ms-transform: translate3d(-50%, -50%, 100px) rotate(15deg) scale(1.2);
   -o-transform: translate3d(-50%, -50%, 100px) rotate(15deg) scale(1.2);
+}
+
+
+@media (max-width: 575.98px) {
+  .keyboard-box {
+    width: 80%;
+    margin-left: 43px;
+  }
 }
